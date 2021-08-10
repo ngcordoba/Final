@@ -1,9 +1,9 @@
 # REACTIVE POKEMON 🌐
 
-## Final exam - Mobile Apps 🎓
+# Final exam - Mobile Apps 🎓
 
 
-#### About this app: 
+### About this app: 
 
 🔍 Search by word.  
 
