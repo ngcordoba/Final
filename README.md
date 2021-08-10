@@ -12,7 +12,7 @@
 #### ❌ Error page. 
 
 ### API: https://pokeapi.co/
-### Android EXPO QR: https://expo.dev/@gabrielncordoba/Final
+### Android EXPO QR: https://expo.dev/@gabrielncordoba/pokemon-app
 
 # 🖼 Pictures:  
 
