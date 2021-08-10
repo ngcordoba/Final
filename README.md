@@ -14,7 +14,8 @@
 ### API: https://pokeapi.co/  
 ### Android EXPO QR
 
-### 🖼 Pictures: 
+## 🖼 Pictures:  
+
 ![Home](https://user-images.githubusercontent.com/70921504/128800295-a4ccdc64-6dd6-4fd1-9005-ee2ee02ca824.jpg) 
 
 ![Busqueda](https://user-images.githubusercontent.com/70921504/128800518-ae4a0e8f-84f5-49dc-82b5-1d17112daada.jpg) 
