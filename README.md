@@ -11,7 +11,7 @@
 
 #### ❌ Error page. 
 
-### API: https://pokeapi.co/  
+### API: https://pokeapi.co/
 ### Android EXPO QR
 
 ## 🖼 Pictures:  
