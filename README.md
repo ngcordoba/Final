@@ -5,11 +5,11 @@
 
 ## About this app: 
 
-####🔍 Search by word.  
+#### 🔍 Search by word.  
 
 #### 🔍 Random search.  
 
-❌ Error page. 
+#### ❌ Error page. 
 
 ### API: https://pokeapi.co/  
 ### Android EXPO QR
