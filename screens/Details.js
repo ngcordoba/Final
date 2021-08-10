@@ -26,7 +26,7 @@ function DetailsScreen({ route, navigation }) {
   .catch((error) => setStatus("error"));;
     }, [pokeData]);
     
-    if (  pokeData && searchText != null ) {
+    if (  pokeData && searchText === null ) {
     return (
           <ImageBackground source={pokeBackground} style={styles.imgBackground} >
                   <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
