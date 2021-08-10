@@ -3,16 +3,16 @@
 # Final exam - Mobile Apps 🎓
 
 
-### About this app: 
+## About this app: 
 
-🔍 Search by word.  
+####🔍 Search by word.  
 
-🔍 Random search.  
+#### 🔍 Random search.  
 
 ❌ Error page. 
 
-#### API: https://pokeapi.co/  
-#### Android EXPO QR
+### API: https://pokeapi.co/  
+### Android EXPO QR
 
 ### 🖼 Pictures: 
 ![Home](https://user-images.githubusercontent.com/70921504/128800295-a4ccdc64-6dd6-4fd1-9005-ee2ee02ca824.jpg) 
