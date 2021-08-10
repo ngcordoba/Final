@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { Button, View, TextInput, Image, ImageBackground, StyleSheet } from 'react-native';
-import { useState } from 'react/cjs/react.production.min';
 import pokeBackground from '../images/background.jpg'
 import pokeLogo from '../images/logoPokemon.png'
 
@@ -10,7 +9,9 @@ function HomeScreen({ navigation }) {
     const [searchText, setSearchText] = React.useState('') 
     
     
+    
       return (
+
         <ImageBackground source={pokeBackground} style={styles.imgBackground}>
           <View style={{ flex: 1, alignItems: "center", justifyContent: "center"}}>
             <Image source={pokeLogo} style={styles.pokemonLogo} />
@@ -18,14 +19,17 @@ function HomeScreen({ navigation }) {
             <TextInput 
             style={styles.txtInput} 
             placeholder= "Search Pokemon" 
-            onChangeText={text => setSearchText(text)} 
+            onChangeText={text => setSearchText(text)
+            
+
+            } 
             />
 
             <View styles={styles.buttonContainer}>
               <Button
                 color="#FF0000"
                 title="Search"
-                onPress= {() => {navigation.navigate("Pokemon Details", { searchText: searchText,});}} 
+                onPress= {() => {navigation.navigate("Pokemon Details", { searchText: searchText});}} 
               />
             
               <Button

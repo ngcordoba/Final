@@ -26,7 +26,7 @@ function DetailsScreen({ route, navigation }) {
   .catch((error) => setStatus("error"));;
     }, [pokeData]);
     
-    if (pokeData) {
+    if (  pokeData && searchText != null ) {
     return (
           <ImageBackground source={pokeBackground} style={styles.imgBackground} >
                   <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
@@ -48,7 +48,7 @@ function DetailsScreen({ route, navigation }) {
               </ImageBackground>
               )
 
-       } else if (!pokeData || status === "error" || status === null) {
+       } else {
           return (
             <ImageBackground source={pokeBackground} style={styles.imgBackground}>
                   <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
@@ -127,7 +127,7 @@ const styles = StyleSheet.create({
 
   cardError: {
     margin: 5,
-    width: 220, 
+    width: 230, 
     borderRadius: 19, 
     backgroundColor: "black",
     textTransform: "capitalize",
